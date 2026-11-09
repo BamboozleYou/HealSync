@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
-import { createEmergencyAlert } from '../../../../lib/emergency';
-import { authenticate } from '../../../../lib/auth';
+import { createEmergencyAlert } from '../../../../../lib/emergency';
+import { authenticate } from '../../../../../lib/auth';
 
 export async function POST(request) {
   try {

@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
-import clientPromise from '../../../../lib/mongodb';
-import { hashPassword, generatePatientId } from '../../../../lib/auth';
-import { validatePatient } from '../../../../models/Patient';
+import clientPromise from '../../../../../lib/mongodb';
+import { hashPassword, generatePatientId } from '../../../../../lib/auth';
+import { validatePatient } from '../../../../../models/Patient';
 
 export async function POST(request) {
   try {
